@@ -16,17 +16,17 @@ export interface PageInterface {
 })
 export class MenuPage {
   // Basic root for our content view
-  rootPage = 'TabsPage';
+  rootPage = 'HomePage';
  
   // Reference to the app's root nav
   @ViewChild(Nav) nav: Nav;
  
   pages: PageInterface[] = [
-    { title: 'Tab 1', pageName: 'TabsPage', tabComponent: 'Tab1Page', index: 0, icon: 'home' },
-    { title: 'Tab 2', pageName: 'TabsPage', tabComponent: 'Tab2Page', index: 1, icon: 'contacts' },
-    { title: 'Special', pageName: 'SpecialPage', icon: 'shuffle' },
+    // { title: 'Tab 1', pageName: 'TabsPage', tabComponent: 'Tab1Page', index: 0, icon: 'home' },
+    // { title: 'Tab 2', pageName: 'TabsPage', tabComponent: 'Tab2Page', index: 1, icon: 'contacts' },
+    // { title: 'Special', pageName: 'SpecialPage', icon: 'shuffle' },
     { title: 'Home', pageName: 'HomePage', icon: 'shuffle' },
-    { title: 'Pemasaran', pageName: 'PemasaranPage', icon: 'shuffle' },
+    { title: 'Pemasaran', pageName: 'PasarPage', icon: 'shuffle' },
     { title: 'Berita', pageName: 'BeritaPage', icon: 'shuffle' },
     { title: 'Laporan', pageName: 'LaporanPage', icon: 'shuffle' },
     { title: 'TataKelola', pageName: 'TataKelolaPage', icon: 'shuffle' },
