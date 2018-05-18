@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { ProfilPage } from './profil';
+import { KomitAuditPage } from './komit-audit';
 
 @NgModule({
   declarations: [
-    ProfilPage,
+    KomitAuditPage,
   ],
   imports: [
-    IonicPageModule.forChild(ProfilPage),
+    IonicPageModule.forChild(KomitAuditPage),
   ],
 })
-export class ProfilPageModule {}
+export class KomitAuditPageModule {}
