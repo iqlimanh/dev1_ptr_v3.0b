@@ -1,14 +1,14 @@
 webpackJsonp([5],{
 
-/***/ 270:
+/***/ 300:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginPageModule", function() { return LoginPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tanya3PageModule", function() { return Tanya3PageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tanya3__ = __webpack_require__(336);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,33 +18,33 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var LoginPageModule = /** @class */ (function () {
-    function LoginPageModule() {
+var Tanya3PageModule = /** @class */ (function () {
+    function Tanya3PageModule() {
     }
-    LoginPageModule = __decorate([
+    Tanya3PageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__login__["a" /* LoginPage */],
+                __WEBPACK_IMPORTED_MODULE_2__tanya3__["a" /* Tanya3Page */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__login__["a" /* LoginPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tanya3__["a" /* Tanya3Page */]),
             ],
         })
-    ], LoginPageModule);
-    return LoginPageModule;
+    ], Tanya3PageModule);
+    return Tanya3PageModule;
 }());
 
-//# sourceMappingURL=login.module.js.map
+//# sourceMappingURL=tanya3.module.js.map
 
 /***/ }),
 
-/***/ 278:
+/***/ 336:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tanya3Page; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -56,24 +56,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var LoginPage = /** @class */ (function () {
-    function LoginPage(navCtrl, navParams) {
+/**
+ * Generated class for the Tanya3Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Tanya3Page = /** @class */ (function () {
+    function Tanya3Page(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    LoginPage.prototype.doLogin = function () {
-        this.navCtrl.setRoot('MenuPage');
+    Tanya3Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Tanya3Page');
     };
-    LoginPage = __decorate([
+    Tanya3Page = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"E:\Petro\plan Dev1\dev1_v3\src\pages\login\login.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Login</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n<button ion-button full (click)="doLogin()">Login</button>\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Petro\plan Dev1\dev1_v3\src\pages\login\login.html"*/,
+            selector: 'page-tanya3',template:/*ion-inline-start:"E:\KKI II\ionic-petro3\src\pages\tanya3\tanya3.html"*/'<!--\n  Generated template for the Tanya3Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n<ion-navbar color="header">\n    <ion-title>Tanya Jawab</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n	<h5>Apa yang melatar belakangi timbulnya Corporate Governance ?</h5>\n              \n                <p> Yang melatar belakangi munculnya Corporate Governance adalah rontoknya atau jatuhnya perusahaan-perusahaan raksasa dunia seperti Enron Corporationi WorldCom di Amerika Serikat, HIH Insurance Company Ltd dan One-Tell Pty Ltd di Australia, serta Parmalat di Italia pada awal dekade 2000-an yang bangkrut gara-gara perusahaan tidak dikelola dengan baik dan bertanggung jawab, atau dengan kata lain Corporate Governance nya lemah.<br></p>\n</ion-content>\n'/*ion-inline-end:"E:\KKI II\ionic-petro3\src\pages\tanya3\tanya3.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], LoginPage);
-    return LoginPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], Tanya3Page);
+    return Tanya3Page;
 }());
 
-//# sourceMappingURL=login.js.map
+//# sourceMappingURL=tanya3.js.map
 
 /***/ })
 

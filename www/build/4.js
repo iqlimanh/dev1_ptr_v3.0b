@@ -1,14 +1,14 @@
 webpackJsonp([4],{
 
-/***/ 275:
+/***/ 301:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MenuPageModule", function() { return MenuPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tanya4PageModule", function() { return Tanya4PageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__menu__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tanya4__ = __webpack_require__(337);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,33 +18,33 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var MenuPageModule = /** @class */ (function () {
-    function MenuPageModule() {
+var Tanya4PageModule = /** @class */ (function () {
+    function Tanya4PageModule() {
     }
-    MenuPageModule = __decorate([
+    Tanya4PageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__menu__["a" /* MenuPage */],
+                __WEBPACK_IMPORTED_MODULE_2__tanya4__["a" /* Tanya4Page */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__menu__["a" /* MenuPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tanya4__["a" /* Tanya4Page */]),
             ],
         })
-    ], MenuPageModule);
-    return MenuPageModule;
+    ], Tanya4PageModule);
+    return Tanya4PageModule;
 }());
 
-//# sourceMappingURL=menu.module.js.map
+//# sourceMappingURL=tanya4.module.js.map
 
 /***/ }),
 
-/***/ 283:
+/***/ 337:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tanya4Page; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -56,72 +56,30 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-var MenuPage = /** @class */ (function () {
-    function MenuPage(navCtrl) {
+/**
+ * Generated class for the Tanya4Page page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var Tanya4Page = /** @class */ (function () {
+    function Tanya4Page(navCtrl, navParams) {
         this.navCtrl = navCtrl;
-        // Basic root for our content view
-        this.rootPage = 'TabsPage';
-        this.pages = [
-            { title: 'Tab 1', pageName: 'TabsPage', tabComponent: 'Tab1Page', index: 0, icon: 'home' },
-            { title: 'Tab 2', pageName: 'TabsPage', tabComponent: 'Tab2Page', index: 1, icon: 'contacts' },
-            { title: 'Special', pageName: 'SpecialPage', icon: 'shuffle' },
-            { title: 'Home', pageName: 'HomePage', icon: 'shuffle' },
-            { title: 'Pemasaran', pageName: 'PemasaranPage', icon: 'shuffle' },
-            { title: 'Berita', pageName: 'BeritaPage', icon: 'shuffle' },
-            { title: 'Laporan', pageName: 'LaporanPage', icon: 'shuffle' },
-            { title: 'TataKelola', pageName: 'TataKelolaPage', icon: 'shuffle' },
-            { title: 'Profil', pageName: 'ProfilPage', icon: 'shuffle' },
-            { title: 'InfoProduk', pageName: 'InfoProdukPage', icon: 'shuffle' },
-            { title: 'CSR', pageName: 'CSRPage', icon: 'shuffle' },
-            { title: 'Tautan', pageName: 'TautanPage', icon: 'shuffle' },
-            { title: 'Bantuan', pageName: 'BantuanPage', icon: 'shuffle' }
-        ];
+        this.navParams = navParams;
     }
-    MenuPage.prototype.openPage = function (page) {
-        var params = {};
-        // The index is equal to the order of our tabs inside tabs.ts
-        if (page.index) {
-            params = { tabIndex: page.index };
-        }
-        // The active child nav is our Tabs Navigation
-        if (this.nav.getActiveChildNav() && page.index != undefined) {
-            this.nav.getActiveChildNav().select(page.index);
-        }
-        else {
-            // Tabs are not active, so reset the root page 
-            // In this case: moving to or from SpecialPage
-            this.nav.setRoot(page.pageName, params);
-        }
+    Tanya4Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Tanya4Page');
     };
-    MenuPage.prototype.isActive = function (page) {
-        // Again the Tabs Navigation
-        var childNav = this.nav.getActiveChildNav();
-        if (childNav) {
-            if (childNav.getSelected() && childNav.getSelected().root === page.tabComponent) {
-                return 'primary';
-            }
-            return;
-        }
-        // Fallback needed when there is no active childnav (tabs not active)
-        if (this.nav.getActive() && this.nav.getActive().name === page.pageName) {
-            return 'primary';
-        }
-        return;
-    };
-    __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
-    ], MenuPage.prototype, "nav", void 0);
-    MenuPage = __decorate([
+    Tanya4Page = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-menu',template:/*ion-inline-start:"E:\Petro\plan Dev1\dev1_v3\src\pages\menu\menu.html"*/'<ion-menu [content]="content">\n\n	<ion-header>\n\n	  <ion-toolbar color="header">\n\n	    <ion-title>Menu</ion-title>\n\n	  </ion-toolbar>\n\n	</ion-header>\n\n\n\n\n\n	<ion-content>\n\n		<ion-list>\n\n			<button ion-item menuClose *ngFor="let p of pages" (click)="openPage(p)">\n\n					<ion-icon item-start [name]="p.icon" [color]="isActive(p)"></ion-icon>\n\n					{{ p.title }}\n\n			</button>\n\n		</ion-list>\n\n	</ion-content>\n\n\n\n</ion-menu>\n\n\n\n<!-- main navigation -->\n\n<ion-nav [root]="rootPage"\n\n #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"E:\Petro\plan Dev1\dev1_v3\src\pages\menu\menu.html"*/,
+            selector: 'page-tanya4',template:/*ion-inline-start:"E:\KKI II\ionic-petro3\src\pages\tanya4\tanya4.html"*/'<!--\n  Generated template for the Tanya4Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n<ion-navbar color="header">\n    <ion-title>tanya4</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n	<h5>Di Indonesia juga dikenal istilah Code for Good Corporate Governance atau Code for CG, apakah ini sebenarnya ?</h5>\n                <p> Code for CG dikeluarkan oleh Komite Nasional Indonesia tentang Corporate Governance Policies mengeluarkan the Indonesian Code for Good Corporate Governance bagi masyarakat bisnis Indonesia. Isinya antara lain memuat hal-hal sebagai berikut : <br><br>\n\n                1. Pemegang saham dan hak mereka<br>\n                2. Fungsi Direksi perusahaan<br>\n                3. Sistem Audit<br>\n                4. Sekretaris Perusahaan<br>\n                5. Stakeholders<br>\n                6. Prinsip pengungkapan informasi perusahaan secara transparan<br>\n                7. Prinsip kerahasiaan<br>\n                8. Etika bisnis dan korupsi<br>\n                9. Perlindungan terhadap lingkungan hidup<br>\n                10. Bagaimana PT Petrokimia Gresik <br></p>\n</ion-content>\n'/*ion-inline-end:"E:\KKI II\ionic-petro3\src\pages\tanya4\tanya4.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
-    ], MenuPage);
-    return MenuPage;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], Tanya4Page);
+    return Tanya4Page;
 }());
 
-//# sourceMappingURL=menu.js.map
+//# sourceMappingURL=tanya4.js.map
 
 /***/ })
 

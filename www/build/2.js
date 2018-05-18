@@ -1,14 +1,14 @@
 webpackJsonp([2],{
 
-/***/ 272:
+/***/ 303:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tab1PageModule", function() { return Tab1PageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tanya6PageModule", function() { return Tanya6PageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tab1__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tanya6__ = __webpack_require__(339);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,33 +18,33 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var Tab1PageModule = /** @class */ (function () {
-    function Tab1PageModule() {
+var Tanya6PageModule = /** @class */ (function () {
+    function Tanya6PageModule() {
     }
-    Tab1PageModule = __decorate([
+    Tanya6PageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__tab1__["a" /* Tab1Page */],
+                __WEBPACK_IMPORTED_MODULE_2__tanya6__["a" /* Tanya6Page */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tab1__["a" /* Tab1Page */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__tanya6__["a" /* Tanya6Page */]),
             ],
         })
-    ], Tab1PageModule);
-    return Tab1PageModule;
+    ], Tanya6PageModule);
+    return Tanya6PageModule;
 }());
 
-//# sourceMappingURL=tab1.module.js.map
+//# sourceMappingURL=tanya6.module.js.map
 
 /***/ }),
 
-/***/ 280:
+/***/ 339:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tab1Page; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tanya6Page; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(50);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -57,29 +57,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the Tab1Page page.
+ * Generated class for the Tanya6Page page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var Tab1Page = /** @class */ (function () {
-    function Tab1Page(navCtrl, navParams) {
+var Tanya6Page = /** @class */ (function () {
+    function Tanya6Page(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    Tab1Page.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad Tab1Page');
+    Tanya6Page.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad Tanya6Page');
     };
-    Tab1Page = __decorate([
+    Tanya6Page = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tab1',template:/*ion-inline-start:"E:\Petro\plan Dev1\dev1_v3\src\pages\tab1\tab1.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n  	<ion-buttons menuToggle>\n\n		<button ion-button menyToggle>\n\n			<ion-icon name="menu"></ion-icon>\n\n		</button>\n\n	</ion-buttons>\n\n    <ion-title>Tab 1</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\nisi dari tab 1\n\n</ion-content>\n\n'/*ion-inline-end:"E:\Petro\plan Dev1\dev1_v3\src\pages\tab1\tab1.html"*/,
+            selector: 'page-tanya6',template:/*ion-inline-start:"E:\KKI II\ionic-petro3\src\pages\tanya6\tanya6.html"*/'<!--\n  Generated template for the Tanya6Page page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n<ion-navbar color="header">\n    <ion-title>Tanya Jawab</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n	<h5>Sejauh mana pelaksanaan internal control di PT Petrokimia Gresik mampu mengawal implementasi prinsip-prinsip GCG ?</h5>\n                <p> Sistem pengendalian internal (internal control) merupakan bagian dari praktek GCG, juga praktek manajemen, yang di dalamnya mencakup pengawasan yang memadai, etika bisnis, independensi, pengungkapan yang akurat dan tepat waktu, akuntabilitas dari seluruh pihak yang terlibat dalam proses pengelolaan perusahaan, serta mekanisme untuk memastikan adanya tindak lanjut yang tepat jika terjadi praktek maupun indikasi penyimpangan dalam perusahaan.<br><br>\n\n                PT Petrokimia Gresik telah membangun sistem pengendalian intern yang diimplementasikan di setiap unit kerja, yang meliputi keberadaan struktur organisasi, prosedur-prosedur operasional, pengendalian kinerja melalui Rapat Anggaran bulanan antara Direksi dengan Pejabat Eselon I/II, rapat bulanan Direksi dengan Komisaris, Pedoman Perilaku Bisnis, Etika Perusahaan, Sistem Pelaporan keuangan/Non Keuangan, Organ Satuan Pengawasan Intern, dan Manajemen Risiko. Keseluruhan sistem tersebut disesuaikan dengan tujuan perusahaan , dinamika lingkungan, dan sifat bisnis organisasi.<br><br>\n\n                Melalui media-media tersebut, sistem pengendalian intern PT Petrokimia Gresik dikomunikasikan ke seluruh jajaran sehingga tercipta bentuk pengendalian seperti adanya pemisahan fungsi, otoritas berjenjang, mekanisme pelaporan kegiatan kepada atasan, pengaturan hak akses data, pengendalian dokumen, sistem wewenang yang memadai untuk melindungi aset perusahaan, berjalannya praktek-praktek yang sehat di dalam melaksanakan tugas dan fungsi setiap bagian dalam organisasi, tercapainya tingkat kecakapan pegawai yang sesuai dengan tanggung jawabnya, dan lain sebagainya.<br><br>\n\n                Dengan demikian, konstruksi pengendalian intern PT Petrokimia Gresik sejauh ini telah mampu mengawal/mendukung secara kondusif implementasi prinsip-prinsip GCG.<br></p>\n</ion-content>\n'/*ion-inline-end:"E:\KKI II\ionic-petro3\src\pages\tanya6\tanya6.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], Tab1Page);
-    return Tab1Page;
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], Tanya6Page);
+    return Tanya6Page;
 }());
 
-//# sourceMappingURL=tab1.js.map
+//# sourceMappingURL=tanya6.js.map
 
 /***/ })
 
