@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { Component } from '@angular/core'; 
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+=======
+import { Component } from '@angular/core';
+import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
+>>>>>>> bdca98409d092080b984aa539e101ec9d0658b34
 
 /**
  * Generated class for the PedomanWbsPage page.
